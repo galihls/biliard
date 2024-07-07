@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Billiard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+    <header>
+      <div class="logo">BilliardClub</div>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <a href="#kontak" class="cta">Pesan Sekarang</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Selamat Datang di BilliardClub</h1>
+        <p>Tempat Terbaik untuk Bermain Billiard dan Bersantai</p>
+        <a href="#tentang" class="cta">Pelajari Lebih Lanjut</a>
+      </div>
+    </section>
+
+    <section id="tentang" class="about">
+      <h2>Tentang Kami</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Kami adalah BilliardClub, klub billiard terkemuka yang menawarkan
+            pengalaman bermain terbaik. Misi kami adalah menyediakan tempat yang
+            nyaman dan menyenangkan untuk semua penggemar billiard. Kami
+            memiliki meja billiard berkualitas tinggi, serta pelatih profesional
+            yang siap membantu Anda meningkatkan kemampuan bermain billiard
+            Anda.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="img/j.jpg" alt="Tentang Kami" />
+        </div>
+      </div>
+    </section>
+
+    <section id="layanan" class="services">
+      <h2>Layanan Kami</h2>
+      <div class="service-cards">
+        <div class="card">
+          <h3>Sewa Meja Billiard</h3>
+          <p>Rasakan sensasi bermain billiard dengan meja kualitas terbaik.</p>
+        </div>
+        <div class="card">
+          <h3>Pelatihan Billiard</h3>
+          <p>
+            Belajar dari pelatih profesional kami untuk meningkatkan kemampuan
+            Anda.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Turnamen Billiard</h3>
+          <p>Ikuti turnamen dan menangkan hadiah menarik.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="gallery">
+      <h2>Galeri Kami</h2>
+      <div class="gallery-grid">
+        <img src="img/galeri3.jpg" alt="Billiard Image 1" />
+        <img src="img/galeri7.jpg" alt="Billiard Image 2" />
+        <img src="img/galeri4.jpg" alt="Billiard Image 3" />
+        <img src="img/galeri6.jpg" alt="Billiard Image 4" />
+      </div>
+    </section>
+
+    <section id="kontak" class="contact">
+      <h2>Kontak Kami</h2>
+      <div class="contact-form-wrapper">
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="start-time">Jam Mulai:</label>
+          <input type="time" id="start-time" name="start-time" required />
+          <label for="end-time">Jam Selesai:</label>
+          <input type="time" id="end-time" name="end-time" required />
+          <label for="meja">Pilih Table:</label>
+          <select id="meja" name="meja" required>
+            <option value="meja1">Table 1</option>
+            <option value="meja2">Table 2</option>
+            <option value="meja3">Table 3</option>
+            <option value="meja4">Table 4</option>
+          </select>
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" required></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+      <div id="map"></div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>BilliardClub</h3>
+          <p>
+            Location: Ruko Paramount Dot Com Red, Jl. Boulevard Raya Gading
+            Serpong No.5, RW.6, Kelapa Dua, Tangerang Regency, Banten 15810
+          </p>
+          <p>Phone: 0895-2555-9560</p>
+          <p>Email: info@billiardclub.com</p>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <p>
+        Created by
+        <a href="https://www.instagram.com/galihls_/">Angga Muhammad Galih</a>
+        And Mocci. &copy; 2024 BilliardClub. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
